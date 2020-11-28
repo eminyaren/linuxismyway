@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bash on Linux is my way</title>
+    <link>https://www.eminyaren.com/tags/bash/</link>
+    <description>Recent content in Bash on Linux is my way</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 28 Nov 2020 13:40:41 +0300</lastBuildDate><atom:link href="https://www.eminyaren.com/tags/bash/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ffmpeg Bash Script</title>
+      <link>https://www.eminyaren.com/posts/ffmpeg_bash_script/</link>
+      <pubDate>Sat, 28 Nov 2020 13:40:41 +0300</pubDate>
+      
+      <guid>https://www.eminyaren.com/posts/ffmpeg_bash_script/</guid>
+      <description>Using Ffmpeg is very effective way to convert video files for Youtube and Davinci Resolve. If you want to convert more than one video files a Bash script is very useful.
+Let&amp;rsquo;s create a converting script
+I am not a programmer but some times I need to create some scripts. So the script which we will create can be different that we create.
+First, we need to decide some variables:</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hardware on Linux is my way</title>
+    <link>https://www.eminyaren.com/tags/hardware/</link>
+    <description>Recent content in Hardware on Linux is my way</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 20 Nov 2020 21:27:11 +0300</lastBuildDate><atom:link href="https://www.eminyaren.com/tags/hardware/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lenovo V155-15api with CentOS</title>
+      <link>https://www.eminyaren.com/posts/lenovo-v155-15api/</link>
+      <pubDate>Fri, 20 Nov 2020 21:27:11 +0300</pubDate>
+      
+      <guid>https://www.eminyaren.com/posts/lenovo-v155-15api/</guid>
+      <description>Last month, I was looking for a cheap laptop with good Gpu, Cpu and good amount of Ram. I searched on internet for a while, Ryzen models was looking good and I found Lenovo v155-15api on hepsiburada.com. It had Ryzen 3500U Apu with 12 GB ram.
+ Lenovo V155-15api
+ My purpose was running Davinci Resolve and Blender 3D for video editing and 3D animations and my budget was very limited (around 500$) so I have decided to buy it.</description>
+    </item>
+    
+  </channel>
+</rss>
