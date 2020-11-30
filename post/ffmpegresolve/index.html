@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+      <title>
+        Ffmpeg for Davinci Resolve ::
+        Linux is my way — A Linux Journey
+      </title>
+    
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta
+  name="description"
+  content="Ffmpeg for Davinci Users Ffmpeg is one of the most amazing tool in Linux. Most of the time, I use it for converting video files for Davinci Resolve. But why I am converting files, let’s take a look at it.
+Unfotunately Linux version of Davinci Resolve does not support mpeg4 or H264 files for video editing. So we have to convert these kind of files to DNXHD or PRORES. First of all we should install ffmpeg;"
+/>
+<meta
+  name="keywords"
+  content=""
+/>
+<meta name="robots" content="noodp" />
+<link rel="canonical" href="/post/ffmpegresolve/" />
+
+
+
+
+
+<link rel="stylesheet" href="/assets/style.css" />
+
+<link rel="stylesheet" href="/style.css" />
+
+
+<link
+  rel="apple-touch-icon-precomposed"
+  sizes="144x144"
+  href="/img/apple-touch-icon-144-precomposed.png"
+/>
+<link rel="shortcut icon" href="/img/favicon.png" />
+
+
+<link href="/assets/fonts/Inter-Italic.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="/assets/fonts/Inter-Regular.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="/assets/fonts/Inter-Medium.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="/assets/fonts/Inter-MediumItalic.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="/assets/fonts/Inter-Bold.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="/assets/fonts/Inter-BoldItalic.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Ffmpeg for Davinci Resolve"/>
+<meta name="twitter:description" content="Ffmpeg for Davinci Users Ffmpeg is one of the most amazing tool in Linux. Most of the time, I use it for converting video files for Davinci Resolve. But why I am converting files, let’s take a look at it.
+Unfotunately Linux version of Davinci Resolve does not support mpeg4 or H264 files for video editing. So we have to convert these kind of files to DNXHD or PRORES. First of all we should install ffmpeg;"/>
+
+
+
+<meta property="og:title" content="Ffmpeg for Davinci Resolve" />
+<meta property="og:description" content="Ffmpeg for Davinci Users Ffmpeg is one of the most amazing tool in Linux. Most of the time, I use it for converting video files for Davinci Resolve. But why I am converting files, let’s take a look at it.
+Unfotunately Linux version of Davinci Resolve does not support mpeg4 or H264 files for video editing. So we have to convert these kind of files to DNXHD or PRORES. First of all we should install ffmpeg;" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/post/ffmpegresolve/" />
+<meta property="article:published_time" content="2020-11-22T00:00:00+00:00" />
+<meta property="article:modified_time" content="2020-11-22T00:00:00+00:00" /><meta property="og:site_name" content="Linux is my way" />
+
+
+
+
+
+
+  </head>
+  <body class="dark-theme">
+    <div class="container">
+      <header class="header">
+  <span class="header__inner">
+    <a
+  href="/"
+  class="logo"
+  style="text-decoration: none;"
+>
+  
+    <span class="logo__mark"><svg xmlns="http://www.w3.org/2000/svg" class="greater-icon" viewBox="0 0 44 44">
+  <path fill="none" d="M15 8l14.729 14.382L15 35.367" />
+</svg>
+</span>
+    <span class="logo__text"
+      >Linux is my way</span
+    >
+    <span class="logo__cursor"></span>
+  
+</a>
+
+    <span class="header__right">
+      
+        <nav class="menu">
+  <ul class="menu__inner menu__inner--desktop">
+    
+      
+        
+          <li><a href="/about">About</a></li>
+        
+      
+        
+          <li><a href="/archive">Archive</a></li>
+        
+      
+      
+      
+  </ul>
+
+  <ul class="menu__inner menu__inner--mobile">
+    
+      
+        <li><a href="/about">About</a></li>
+      
+    
+      
+        <li><a href="/archive">Archive</a></li>
+      
+    
+  </ul>
+</nav>
+
+        <span class="menu-trigger">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M0 0h24v24H0z" fill="none" />
+            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z" />
+          </svg>
+        </span>
+      
+      <span class="theme-toggle">
+        <svg
+  class="theme-toggler"
+  width="24"
+  height="24"
+  viewBox="0 0 48 48"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"
+  />
+</svg>
+
+      </span>
+    </span>
+  </span>
+</header>
+
+
+      <div class="content">
+        
+  
+  
+
+  <div class="post">
+    <h1 class="post-title">Ffmpeg for Davinci Resolve</h1>
+    <div class="post-meta">
+      
+        <span class="post-date">
+          2020-11-22
+        </span>
+
+        
+          
+        
+      
+
+      
+        <span class="post-author"
+          >— Written by Emin Yaren</span
+        >
+
+
+      
+    </div>
+
+    
+
+    
+
+    <div class="post-content">
+      
+      <h2 id="ffmpeg-for-davinci-users">Ffmpeg for Davinci Users</h2>
+<p>Ffmpeg is one of the most amazing tool in Linux. Most of the time, I use it for converting video files for Davinci Resolve. But why I am converting files, let’s take a look at it.</p>
+<p>Unfotunately Linux version of Davinci Resolve does not support mpeg4 or H264 files for video editing. So we have to convert these kind of files to DNXHD or PRORES. First of all we should install ffmpeg;</p>
+<p>In CentOS 8, we need Epel and Fusion repository:</p>
+<ul>
+<li>First install Epel repository.</li>
+</ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">&gt; sudo dnf -y install https://download.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm
+</code></pre></div><ul>
+<li>Second, install Fusion repository.</li>
+</ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">&gt; sudo dnf config-manager –enable PowerTools <span style="color:#f92672">&amp;&amp;</span> dnf install –nogpgcheck https://download1.rpmfusion.org/free/el/rpmfusion-free-release-8.noarch.rpm https://download1.rpmfusion.org/nonfree/el/rpmfusion-nonfree-release-8.noarch.rpm
+</code></pre></div><ul>
+<li>Install SDL2 Libraries.</li>
+</ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">&gt; sudo dnf install http://rpmfind.net/linux/epel/7/x86_64/Packages/s/SDL2-2.0.10-1.el7.x86_64.rpm
+</code></pre></div><ul>
+<li>Then install ffmpeg and ffmpeg development packages.</li>
+</ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">&gt; sudo dnf install ffmpeg ffmpeg-devel
+</code></pre></div><p>Ffmpeg is a commandline tool so we can automate it with a bash script. Now it is time to convert files:</p>
+<ol>
+<li>PRORES Conversation:</li>
+</ol>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">&gt; ffmpeg -i input.mp4 -c:v prores_ks -profile:v <span style="color:#ae81ff">3</span> -c:a pcm_s16le output.mov
+</code></pre></div><p>The profile can take integer from -1 to 5:</p>
+<ul>
+<li>-1: auto (default)</li>
+<li>0: proxy ≈ 45Mbps YUV 4:2:2</li>
+<li>1: lt ≈ 102Mbps YUV 4:2:2</li>
+<li>2: standard ≈ 147Mbps YUV 4:2:2</li>
+<li>3: hq ≈ 220Mbps YUV 4:2:2</li>
+<li>4: 4444≈ 330Mbps YUVA 4:4:4:4</li>
+<li>5: 4444xq ≈ 500Mbps YUVA 4:4:4:4</li>
+</ul>
+<ol start="2">
+<li>DNXHD Conversation:</li>
+</ol>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">&gt; ffmpeg -i “inputvideo.mp4” -c:v dnxhd -profile:v dnxhr_hq -pix_fmt yuv422p -c:a pcm_s16le “outputvideo.mxf”
+</code></pre></div><p>DNXHD can take following profiles with dnxhr :</p>
+<ul>
+<li>LB (equivalent to ProRes Proxy)</li>
+<li>SQ (equivalent to ProRes LT)</li>
+<li>HQ (equivalent to ProRes 422)</li>
+<li>HQX (equivalent to ProRes 422HQ)</li>
+<li>444 (equivalent to ProRes 444)</li>
+</ul>
+<p>Now we can convert all video files to PRORES or DNXHD with ffmpeg. I prefer using a bash script to convert all files at ones.</p>
+
+    </div>
+    
+      
+        <div class="pagination">
+          <div class="pagination__title">
+            <span class="pagination__title-h"
+              >Read other posts</span
+            >
+            <hr />
+          </div>
+          <div class="pagination__buttons">
+            
+              <span class="button previous">
+                <a href="/post/batchffmpeg/">
+                  <span class="button__icon">←</span>
+                  <span class="button__text">Bash script for ffmpeg</span>
+                </a>
+              </span>
+            
+            
+              <span class="button next">
+                <a href="/post/lenovo-v155-15api/">
+                  <span class="button__text">Lenovo V155-15api with CentOS</span>
+                  <span class="button__icon">→</span>
+                </a>
+              </span>
+            
+          </div>
+        </div>
+      
+    
+
+    
+      
+        
+
+      
+    
+  </div>
+
+      </div>
+
+      
+        <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright copyright--user">Emin Yaren</div>
+      
+  </div>
+</footer>
+
+<script src="/assets/main.js"></script>
+<script src="/assets/prism.js"></script>
+
+
+      
+    </div>
+
+    
+  </body>
+</html>

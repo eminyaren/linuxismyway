@@ -1,2 +1,0 @@
-# linuxismyway
-A web site

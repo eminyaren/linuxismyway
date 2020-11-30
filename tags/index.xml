@@ -2,55 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Linux is my way</title>
-    <link>https://www.eminyaren.com/tags/</link>
+    
+    
+    
+    <link>/tags/</link>
     <description>Recent content in Tags on Linux is my way</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 28 Nov 2020 13:40:41 +0300</lastBuildDate><atom:link href="https://www.eminyaren.com/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Bash</title>
-      <link>https://www.eminyaren.com/tags/bash/</link>
-      <pubDate>Sat, 28 Nov 2020 13:40:41 +0300</pubDate>
-      
-      <guid>https://www.eminyaren.com/tags/bash/</guid>
-      <description></description>
-    </item>
+    <copyright>Emin Yaren</copyright>
     
-    <item>
-      <title>Ffmpeg</title>
-      <link>https://www.eminyaren.com/tags/ffmpeg/</link>
-      <pubDate>Sat, 28 Nov 2020 13:40:41 +0300</pubDate>
-      
-      <guid>https://www.eminyaren.com/tags/ffmpeg/</guid>
-      <description></description>
-    </item>
+	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
-    <item>
-      <title>Linux</title>
-      <link>https://www.eminyaren.com/tags/linux/</link>
-      <pubDate>Sat, 28 Nov 2020 13:40:41 +0300</pubDate>
-      
-      <guid>https://www.eminyaren.com/tags/linux/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Software</title>
-      <link>https://www.eminyaren.com/tags/software/</link>
-      <pubDate>Sat, 28 Nov 2020 13:40:41 +0300</pubDate>
-      
-      <guid>https://www.eminyaren.com/tags/software/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Hardware</title>
-      <link>https://www.eminyaren.com/tags/hardware/</link>
-      <pubDate>Fri, 20 Nov 2020 21:27:11 +0300</pubDate>
-      
-      <guid>https://www.eminyaren.com/tags/hardware/</guid>
-      <description></description>
-    </item>
     
   </channel>
 </rss>
