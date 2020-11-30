@@ -3,50 +3,50 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/about/</loc>
+    <loc>./about/</loc>
     <lastmod>2020-11-30T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/batchffmpeg/</loc>
+    <loc>./post/batchffmpeg/</loc>
     <lastmod>2020-11-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/</loc>
+    <loc>./</loc>
     <lastmod>2020-11-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/</loc>
+    <loc>./post/</loc>
     <lastmod>2020-11-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/ffmpegresolve/</loc>
+    <loc>./post/ffmpegresolve/</loc>
     <lastmod>2020-11-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/lenovo-v155-15api/</loc>
+    <loc>./post/lenovo-v155-15api/</loc>
     <lastmod>2020-11-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/hello/</loc>
+    <loc>./post/hello/</loc>
     <lastmod>2020-11-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/archive/</loc>
+    <loc>./archive/</loc>
   </url>
   
   <url>
-    <loc>/categories/</loc>
+    <loc>./categories/</loc>
   </url>
   
   <url>
-    <loc>/tags/</loc>
+    <loc>./tags/</loc>
   </url>
   
 </urlset>

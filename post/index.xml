@@ -5,22 +5,22 @@
     
     
     
-    <link>/post/</link>
+    <link>./post/</link>
     <description>Recent content in Posts on Linux is my way</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Emin Yaren</copyright>
     <lastBuildDate>Wed, 25 Nov 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="./post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Bash script for ffmpeg</title>
-      <link>/post/batchffmpeg/</link>
+      <link>./post/batchffmpeg/</link>
       <pubDate>Wed, 25 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>/post/batchffmpeg/</guid>
+      <guid>./post/batchffmpeg/</guid>
       <description>
         
           
@@ -40,10 +40,10 @@ First, we need to decide some variables:
     
     <item>
       <title>Ffmpeg for Davinci Resolve</title>
-      <link>/post/ffmpegresolve/</link>
+      <link>./post/ffmpegresolve/</link>
       <pubDate>Sun, 22 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>/post/ffmpegresolve/</guid>
+      <guid>./post/ffmpegresolve/</guid>
       <description>
         
           
@@ -61,10 +61,10 @@ Unfotunately Linux version of Davinci Resolve does not support mpeg4 or H264 fil
     
     <item>
       <title>Lenovo V155-15api with CentOS</title>
-      <link>/post/lenovo-v155-15api/</link>
+      <link>./post/lenovo-v155-15api/</link>
       <pubDate>Sat, 21 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>/post/lenovo-v155-15api/</guid>
+      <guid>./post/lenovo-v155-15api/</guid>
       <description>
         
           
@@ -82,10 +82,10 @@ Lenovo V155-15  My purpose was running Davinci Resolve and Blender 3D for video 
     
     <item>
       <title>Welcome to my journey</title>
-      <link>/post/hello/</link>
+      <link>./post/hello/</link>
       <pubDate>Fri, 20 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>/post/hello/</guid>
+      <guid>./post/hello/</guid>
       <description>
         
           
